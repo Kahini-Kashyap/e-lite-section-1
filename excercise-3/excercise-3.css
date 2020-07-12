@@ -1,0 +1,323 @@
+body{
+    background-color:rgba(41, 119, 245, 0.07);
+}
+
+
+
+.kabir{
+       font-family: 'Roboto', sans-serif;
+       font-size: 30px;
+    letter-spacing: 2px;
+       margin: 60px
+}
+
+.goel{
+      color:#2977F5;
+       font-family: 'Roboto', sans-serif;
+       font-size: 31px;
+    letter-spacing: 3px;
+        margin-left: 180px;
+        margin-top: -97px;
+        font-weight: bold;
+}
+
+#right-tab{
+            margin-left: 800px;
+        margin-top: -80px
+}
+
+#right-tab p{
+                 font-family: 'Roboto', sans-serif;
+                  letter-spacing: 2px;
+                  font-size: 20px;
+                  font-weight: bold;
+                  display: inline-block;
+                  margin-left: 20px;
+                  
+                  
+           
+}
+
+#right-tab:hover{
+                    text-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
+}
+
+#right-tab i{
+             color:#2977F5;
+             transform: rotate(-20deg);
+              margin-left: 10px;
+              
+}
+
+#box{
+     position: relative;
+     background-color: #D8E4FA;
+     height: 500px;
+     width: 1100px;
+     margin-left: 60px;
+     margin-top: 30px
+}
+
+#box h2{
+        color: #2977F5;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 90px;
+        padding-top: 90px;
+        letter-spacing: 2px
+}
+
+#box h3{
+         
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 90px;
+        padding-top: -100px;
+        letter-spacing: 2px;
+        line-height: 60px;
+    
+}
+
+#box u{
+       color: #2977F5;
+}
+
+.input{
+       height: 51px;
+       width: 140px;
+       border:none;
+       background-color: #2977F5;
+       color:white;
+        font-family: 'Inter', sans-serif;
+       font-weight: bold;
+        letter-spacing: 2px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 94px;
+        margin-top: -20px
+}
+
+.input:hover{
+              border:1px solid #2977F5;
+              color: #2977F5;
+                background-color: transparent
+}
+.div i{
+        color:white;
+        margin-top:-33px;
+        margin-left: 212px
+}
+
+.navigation-bar{
+                 margin-top:40px;
+                 margin-left: 70px
+}
+
+.navigation-bar span{
+                     color: #555555;
+                       font-family: 'Roboto', sans-serif;
+                      font-size: 15px;
+                    font-family: 'Roboto', sans-serif;
+                       
+                         
+                     
+}
+
+.navigation-bar p{
+                    font-size: 18px;
+                     font-family: 'Roboto', sans-serif;
+                   margin-top:1px
+}
+
+
+.navigation-bar-2{
+                 margin-top:-60px;
+                 margin-left:370px
+}
+
+.navigation-bar-2 span{
+                     color: #555555;
+                       font-family: 'Roboto', sans-serif;
+                      font-size: 15px;
+                       
+                         
+                     
+}
+
+.navigation-bar-2 p{
+                    font-size: 18px;
+                     font-family: 'Roboto', sans-serif;
+                   margin-top:1px
+}
+
+.itags{
+       margin-left:973px;
+       margin-top:-49px;
+}
+.font-awesome span{
+               font-size: 22px;
+               padding-left: 20px;
+               
+    
+}
+
+
+
+#deck{
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      margin-top: 50px
+}
+
+.card{
+       width: 244px;
+       height: 229px;
+       box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.1);
+      border-radius: 13px;
+      background-color: white
+}
+
+#deck h3{
+         font-weight: 700;
+         font-family: 'Inter', sans-serif;
+         letter-spacing: 1px;
+         font-size: 21px;
+         padding:30px;
+         margin-top: -10px
+}
+
+.card i{
+         color:#2977F5;
+         font-size: 44px;
+         margin-top:60px;
+         margin-left: 35px
+}
+
+#deck p{
+        font-family: 'IBM Plex Sans', sans-serif;
+        color: #989696;
+        font-size: 15px;
+        font-weight: 200;
+        letter-spacing: 1px;
+        margin-left: 35px;
+        margin-top: -35px
+}
+
+#end{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 210px;
+      width: 1150px;
+      background-color: #D8E4FA;
+      margin-top: 80px;
+      margin-left: 60px;
+      
+}
+
+#end h3{
+        font-family: Roboto;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: 300;
+        color: #333333;
+        margin-top: -100px;
+    
+}
+
+#end p{
+        font-family: Roboto;
+        letter-spacing: 1px;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 10px;
+        color: #333333;
+        margin-top: -100px;
+        transition: 0.3s
+}
+
+#end p:hover{
+             transform: scale(1.1)
+}
+
+.end-content{
+             width: 591px;
+             height: 84px;
+             background-color:  #F0F5FE;
+             border: 1px solid #F0F5FE;
+             margin-top: -120px;
+            margin-left: 28%;
+             
+}
+
+.end-content h3{
+                color: #777777;
+                
+                font-family: Roboto;
+                 font-size: 21px;
+                font-weight: 500;
+                 padding-left: 12px;
+                padding-top: 8px
+}
+
+.subs{
+      width: 225px;
+      height:50px;
+      background-color: #2977F5;
+      color:white;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 1px;
+      border: none;
+      margin-left: 340px;
+      margin-top: -60px
+    
+}
+
+.final h4{
+             font-family: Roboto;
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: 100px;
+             margin-left: 29%
+}
+
+.final h2{
+           font-family: Roboto;
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: -46.5px;
+             margin-left: 43%
+}
+
+.final h3{
+             font-family: Roboto;
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: -53.5px;
+             margin-left:38%;
+            color:red;
+}
+
+.final h1{
+             font-family: Roboto;
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: -43.5px;
+             margin-left: 46.5%;
+             color:6A48C6
+}
+
+.final h5{
+            font-family: Roboto;
+             font-size: 21px;
+             font-weight: 300;
+             margin-top: -40.5px;
+             margin-left: 61.5%;
+             
+}
+

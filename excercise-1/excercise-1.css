@@ -1,0 +1,313 @@
+#top{
+      display: flex;
+}
+body{
+    margin:0px;
+}
+
+.heading{
+         font-family: 'Prompt', sans-serif;
+         align-items:center;
+         justify-content: center;
+         margin:28px;
+         margin-left:40px;
+         font-size: 30px;
+         transition: 0.4s    
+}
+
+.heading:hover{
+               transform: scale(1.1)
+}
+
+.circle{
+        background-color: black;
+        border-radius:50%;
+        height:25px;
+        width:25px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin:48px;
+        margin-left:768px;
+}
+
+
+.signers{
+         display:flex;
+         align-items:center;
+         justify-content: center;
+         color:white;
+         font-size:15px;
+         font-family: 'Inter', sans-serif;
+         font-weight: normal;
+         
+}
+
+.sign-up{
+         font-weight: 500;
+         font-size: 17px;
+        font-family: 'Inter', sans-serif;
+         color: #606060;
+         display:flex;
+         align-items:center;
+         justify-content: center;
+         margin:45px;
+         margin-left:-20px;
+         border:none;
+         height:28px;
+         width:60px;
+         background-color: white;
+        
+}
+
+.log-in{
+        height:39px;
+        width:105px;
+        background-color: black;
+        color:white;
+        border-radius: 45px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin:38px;
+        margin-left:-10px;
+       font-family: 'Inter', sans-serif;
+        border:none;
+        font-weight:200;
+        font-size: 15px;
+}
+
+.log-in:hover{
+              border:1px solid black;
+              color:black;
+              background-color: transparent;
+              font-weight: 500;
+}
+
+#box{
+     display:flex;
+     align-items:center;
+     justify-content: center;
+     height:490px;
+     width:1200px;
+     background-color: #5628D2;
+     margin-left:30px;
+     border-radius: 31px;
+     
+}
+
+#image{
+        background-image: url(cityscapes%201.png);
+        height:353px;
+        width:683px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        margin-top: 139px;
+        margin-left: 516px
+        
+}
+
+.interior-1{
+            color:white;
+            font-family: 'Prompt', sans-serif;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            margin-top:-200px;
+            margin-left: -1300px;    
+            font-size: 35px;
+            font-weight: 300;
+            
+}
+
+.interior-2{
+            font-family: 'Inter', sans-serif;
+            color:white;
+            font-size: 19px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:-20px;
+            margin-left: -306px;
+            font-weight:300;
+             line-height: 25px;
+}
+
+.interior-3{
+            font-family: 'Inter', sans-serif;
+            color:white;
+            font-size: 16px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top:77px;
+            margin-left: -244px;
+            font-weight:600;
+             line-height: 25px;
+           
+}
+
+.interior-3 i{
+              margin-left: 8px;
+            
+}
+
+section{
+  width:90%;
+  margin-left:5%;
+  display:flex;
+}
+section nav{
+  width:25%;
+  padding:35px;
+  box-sizing:border-box;
+}
+section aside{
+  width:75%;
+  display:flex;
+  flex-direction:column;
+}
+aside div{
+  display:flex;
+  justify-content:space-between;
+     height:136px;
+    align-items: center;
+}
+aside div span{
+  display:flex;
+  align-items:center;
+}
+
+
+nav h1{
+       font-family: 'Inter', sans-serif;
+       font-weight:bold;
+       font-size: 22px;
+       line-height:27px;
+        display: flex;
+       justify-content: space-between;
+       
+}
+
+nav p{
+      font-family: 'Inter', sans-serif;
+      font-weight: normal;
+      line-height: 16px;
+       font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+          
+}
+
+nav i{
+      color: #5628D2;
+    
+     
+}
+
+nav p i{
+        color:#5628D2;
+        font-size: 20px
+}
+
+aside div input{
+                height:54px;
+                width:550px;
+                border-radius: 8px;
+                border:none;
+                background-color: rgba(86, 40, 201, 0.1);
+                color: rgba(51, 51, 51, 0.48);
+                padding:0px 22px;
+                display:flex;
+                justify-content: center;
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                letter-spacing: .11em;
+                margin-left:14px;
+                box-sizing: border-box;
+             
+    
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+    align-items: flex-start;
+   font-family: 'Inter', sans-serif;
+   font-weight: bold;
+   width: 33%;
+    padding:18px;
+    box-sizing: border-box;
+    position: relative;
+   margin-bottom: 150px;
+     
+  
+
+}
+.card img{
+    width:100%;
+}
+
+.card h3{
+         font-family: 'Inter', sans-serif;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 15px;
+         line-height: 18px;
+         margin-left:6px;
+    margin-top:19px;
+         margin-bottom: 5px;
+    
+}
+
+.card p{
+    font-family: 'Inter', sans-serif;
+      font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+line-height: 12px;
+    color:#777777;
+   margin-left: 6px;
+    margin-bottom:19px;
+     margin-top: 0px;
+}
+
+.card h2{
+         margin-left:6px;
+         margin-top: 0px;
+         font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+    
+}
+
+.card>i{
+         position: absolute;
+         bottom:-84px;
+         right:20px;
+          color:#5628D2;
+         font-size: 25px;
+          font-weight: 300
+}
+
+aside article{
+              display: flex;
+            flex-wrap:wrap;
+              justify-content: space-between;
+}
+
+aside div span{
+               height:30px;
+               width:183px;
+               background-color: black;
+               border-radius: 15px;
+                color:white;
+              display:flex;
+               justify-content: center;
+              font-family: 'Inter', sans-serif;
+               
+}
+

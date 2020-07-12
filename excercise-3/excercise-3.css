@@ -286,38 +286,16 @@ body{
              margin-left: 29%
 }
 
-.final h2{
-           font-family: Roboto;
-             font-size: 21px;
-             font-weight: 300;
-             margin-top: -46.5px;
-             margin-left: 43%
-}
 
-.final h3{
-             font-family: Roboto;
-             font-size: 21px;
-             font-weight: 300;
-             margin-top: -53.5px;
-             margin-left:38%;
+
+.final .red{
             color:red;
 }
 
-.final h1{
-             font-family: Roboto;
-             font-size: 21px;
-             font-weight: 300;
-             margin-top: -43.5px;
-             margin-left: 46.5%;
+.final .blue{
+            
              color:6A48C6
 }
 
-.final h5{
-            font-family: Roboto;
-             font-size: 21px;
-             font-weight: 300;
-             margin-top: -40.5px;
-             margin-left: 61.5%;
-             
-}
+
 
